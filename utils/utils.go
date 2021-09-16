@@ -12,8 +12,8 @@ import (
 	"github.com/c-robinson/iplib"
 )
 
-var IpConfFile = "ip.json"
-var contIDtoIP = "ip-id-map.json"
+var IpConfFile = "/tmp/ip.json"
+var contIDtoIP = "/tmp/ip-id-map.json"
 
 type IpParse struct {
 	LastUsedIp *string  `json:"last_used_ip"`
