@@ -1,0 +1,12 @@
+# myipam.service
+[Unit]
+Description=myipam Service.
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/myipam
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
